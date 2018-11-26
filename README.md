@@ -1,4 +1,4 @@
-# SASS Clean up and Theming
+# Messy SASS - Clean up and Theming
 
 ![preview of blog post layout](./assets/img/preview.png)
 
