@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC:900");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #313133; }
+  body article {
+    max-width: 960px;
+    margin: 80px auto;
+    background-color: #4a4a4d;
+    color: #f5f5f5;
+    padding: 60px 36px;
+    font-size: 20px;
+    box-shadow: 0px 4px 40px 10px rgba(0, 0, 0, 0.2); }
+    @media screen and (max-width: 567px) {
+      body article {
+        padding: 60px 12px; } }
+    body article div {
+      margin-bottom: 2em; }
+      body article div.intro {
+        font-weight: 100;
+        font-style: italic; }
+      body article div.imageblock img {
+        max-width: 100%; }
+      body article div p {
+        font-family: "Open Sans", sans-serif; }
+    body article h1 {
+      font-size: 3em;
+      margin-bottom: 0.6em;
+      font-family: "Playfair Display SC", serif;
+      font-weight: 900; }
+      @media screen and (max-width: 567px) {
+        body article h1 {
+          font-size: 1.8em; } }
+    body article h2 {
+      font-size: 1.8em;
+      margin-bottom: 0.4em;
+      font-family: "Playfair Display SC", serif; }
+      @media screen and (max-width: 567px) {
+        body article h2 {
+          font-size: 1.4em; } }
+    body article h3 {
+      font-size: 1.4em;
+      margin-bottom: 0.2em;
+      font-family: "Playfair Display SC", serif; }
+      @media screen and (max-width: 567px) {
+        body article h3 {
+          font-size: 1.1em; } }
+  body footer nav {
+    max-width: 960px;
+    margin: 0 auto; }
+    body footer nav.footer-nav {
+      text-align: right;
+      margin-bottom: 80px; }
+      body footer nav.footer-nav > a {
+        display: block;
+        color: #f5f5f5;
+        font-family: "Open Sans", sans-serif;
+        text-decoration: none; }
+        body footer nav.footer-nav > a div {
+          margin: 0 20px; }
+        body footer nav.footer-nav > a div > span {
+          font-family: "Playfair Display SC", serif;
+          font-size: 2em; }
+          body footer nav.footer-nav > a div > span + h1 {
+            font-size: 1.5em; }
+
+/*# sourceMappingURL=style.css.map */
