@@ -36,7 +36,7 @@ h1, h2, h3 {
   font-family: "Playfair Display SC", serif; }
 
 .quotation {
-  background-color: #ccc;
+  background-color: skyblue;
   color: black; }
 
 blockquote {
@@ -66,13 +66,13 @@ blockquote {
   font-size: 1.5em; }
 
 body {
-  background-color: #313133; }
+  background-color: #0000cc; }
 
 article {
   max-width: 960px;
   margin: 80px auto;
-  background-color: #4a4a4d;
-  color: #f5f5f5;
+  background-color: blue;
+  color: antiquewhite;
   padding: 60px 36px;
   box-shadow: 0px 4px 40px 10px rgba(0, 0, 0, 0.2); }
   @media screen and (max-width: 567px) {
@@ -82,7 +82,7 @@ article {
     margin-bottom: 2em; }
 
 a {
-  color: orange;
+  color: lime;
   text-decoration: underline dotted; }
 
 .imageblock img {
@@ -97,7 +97,7 @@ ul, ol {
   text-align: right; }
   .footer-nav a {
     display: block;
-    color: #f5f5f5; }
+    color: antiquewhite; }
   .footer-nav div {
     margin: 0 20px 20px 20px; }
 
