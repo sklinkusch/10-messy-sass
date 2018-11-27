@@ -23,15 +23,16 @@ article {
 .imageblock img {
   max-width: 100%;
 }
+article {
+  div {
+    margin-bottom: 2em;
+  }
+  p {
+    font-family: "Open Sans", sans-serif;
+  }
+}
 body {
   article {
-    div {
-      margin-bottom: 2em;
-      p {
-        font-family: "Open Sans", sans-serif;
-      }
-    }
-
     h1 {
       font-size: 3em;
       margin-bottom: 0.6em;
