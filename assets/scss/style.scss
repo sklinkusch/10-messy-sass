@@ -35,6 +35,11 @@ article {
 h1, h2, h3 {
   font-family: "Playfair Display SC", serif;
 }
+@mixin fons($size,$margin,$weight) {
+  font-size: $size;
+  margin-bottom: $margin;
+  font-weight: $weight;
+}
 body {
   article {
     h1 {
