@@ -2,36 +2,4 @@
 @import './vars';
 @import './mixins';
 @import './typography';
-
-body {
-  background-color: darken($background, 10%);
-}
-article {
-  max-width: 960px;
-    margin: 80px auto;
-    background-color: $background;
-    color: $foreground;
-    padding: 60px 36px;
-    box-shadow: 0px 4px 40px 10px rgba(0, 0, 0, 0.2);
-    @media screen and (max-width: 567px) {
-      padding: 60px 12px;
-    }
-    div {
-      margin-bottom: 2em;
-    }
-}
-.imageblock img {
-  max-width: 100%;
-}
-.footer-nav {
-  max-width: 960px;
-  margin: 0 auto 80px auto;
-  text-align: right;
-  a {
-    display: block;
-    color: $foreground;
-  }
-  div {
-    margin: 0 20px;
-  }
-}
+@import './layout';
