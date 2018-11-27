@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC:900");
+article {
+  font-size: 20px;
+  p {
+    font-family: "Open Sans", sans-serif;
+  }
+  h1, h2, h3 {
+    font-family: "Playfair Display SC", serif;
+  }
+  h1 {
+    @include fons(3em,0.6em,900);
+    @media #{$mobile} {
+      font-size: 1.8em;
+    }
+  }
+  h2 {
+    @include fons(1.8em,0.4em,100);
+    @media #{$mobile} {
+      font-size: 1.4em;
+    }
+  }
+  h3 {
+    @include fons(1.4em,0.2em,100);
+    @media #{$mobile} {
+      font-size: 1.1em;
+    }
+  }
+}
+.intro {
+  font-weight: 100;
+  font-style: italic;
+}
+.footer-nav {
+  a {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+  }
+  span {
+    font-family: "Playfair Display SC", serif;
+    font-size: 2em;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}

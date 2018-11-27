@@ -1,7 +1,7 @@
 @import './reset';
 @import './vars';
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC:900");
 @import './mixins';
+@import './typography';
 
 body {
   background-color: darken($background, 10%);
@@ -12,47 +12,16 @@ article {
     background-color: $background;
     color: $foreground;
     padding: 60px 36px;
-    font-size: 20px;
     box-shadow: 0px 4px 40px 10px rgba(0, 0, 0, 0.2);
     @media screen and (max-width: 567px) {
       padding: 60px 12px;
     }
-}
-.intro {
-  font-weight: 100;
-  font-style: italic;
+    div {
+      margin-bottom: 2em;
+    }
 }
 .imageblock img {
   max-width: 100%;
-}
-article {
-  div {
-    margin-bottom: 2em;
-  }
-  p {
-    font-family: "Open Sans", sans-serif;
-  }
-}
-h1, h2, h3 {
-  font-family: "Playfair Display SC", serif;
-}
-h1 {
-  @include fons(3em,0.6em,900);
-  @media #{$mobile} {
-    font-size: 1.8em;
-  }
-}
-h2 {
-  @include fons(1.8em,0.4em,100);
-  @media #{$mobile} {
-    font-size: 1.4em;
-  }
-}
-h3 {
-  @include fons(1.4em,0.2em,100);
-  @media #{$mobile} {
-    font-size: 1.1em;
-  }
 }
 .footer-nav {
   max-width: 960px;
@@ -61,17 +30,8 @@ h3 {
   a {
     display: block;
     color: $foreground;
-    font-family: "Open Sans", sans-serif;
-    text-decoration: none;
   }
   div {
     margin: 0 20px;
-  }
-  span {
-    font-family: "Playfair Display SC", serif;
-    font-size: 2em;
-  }
-  h1 {
-    font-size: 1.5em;
   }
 }
