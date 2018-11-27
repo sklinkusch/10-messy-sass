@@ -19,15 +19,16 @@ article {
     article {
       padding: 60px 12px; } }
 
+.intro {
+  font-weight: 100;
+  font-style: italic; }
+
 .imageblock img {
   max-width: 100%; }
 
 body article { }
   body article div {
     margin-bottom: 2em; }
-    body article div.intro {
-      font-weight: 100;
-      font-style: italic; }
     body article div p {
       font-family: "Open Sans", sans-serif; }
   body article h1 {

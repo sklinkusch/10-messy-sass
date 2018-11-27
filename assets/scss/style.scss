@@ -16,6 +16,10 @@ article {
       padding: 60px 12px;
     }
 }
+.intro {
+  font-weight: 100;
+  font-style: italic;
+}
 .imageblock img {
   max-width: 100%;
 }
@@ -23,11 +27,6 @@ body {
   article {
     div {
       margin-bottom: 2em;
-
-      &.intro {
-        font-weight: 100;
-        font-style: italic;
-      }
       p {
         font-family: "Open Sans", sans-serif;
       }
