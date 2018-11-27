@@ -1,6 +1,7 @@
 @import './reset';
 @import './vars';
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC:900");
+@import './mixins';
 
 body {
   background-color: darken($background, 10%);
@@ -34,11 +35,6 @@ article {
 }
 h1, h2, h3 {
   font-family: "Playfair Display SC", serif;
-}
-@mixin fons($size,$margin,$weight) {
-  font-size: $size;
-  margin-bottom: $margin;
-  font-weight: $weight;
 }
 h1 {
   @include fons(3em,0.6em,900);

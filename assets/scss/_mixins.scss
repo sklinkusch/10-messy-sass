@@ -1,0 +1,5 @@
+@mixin fons($size,$margin,$weight) {
+  font-size: $size;
+  margin-bottom: $margin;
+  font-weight: $weight;
+}
