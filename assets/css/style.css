@@ -59,23 +59,21 @@ h3 {
     h3 {
       font-size: 1.1em; } }
 
-body footer nav {
+.footer-nav {
   max-width: 960px;
-  margin: 0 auto; }
-  body footer nav.footer-nav {
-    text-align: right;
-    margin-bottom: 80px; }
-    body footer nav.footer-nav > a {
-      display: block;
-      color: #f5f5f5;
-      font-family: "Open Sans", sans-serif;
-      text-decoration: none; }
-      body footer nav.footer-nav > a div {
-        margin: 0 20px; }
-      body footer nav.footer-nav > a div > span {
-        font-family: "Playfair Display SC", serif;
-        font-size: 2em; }
-        body footer nav.footer-nav > a div > span + h1 {
-          font-size: 1.5em; }
+  margin: 0 auto 80px auto;
+  text-align: right; }
+  .footer-nav a {
+    display: block;
+    color: #f5f5f5;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none; }
+  .footer-nav div {
+    margin: 0 20px; }
+  .footer-nav span {
+    font-family: "Playfair Display SC", serif;
+    font-size: 2em; }
+  .footer-nav h1 {
+    font-size: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */

@@ -58,32 +58,24 @@ h3 {
     font-size: 1.1em;
   }
 }
-body {
-  footer nav {
-    max-width: 960px;
-    margin: 0 auto;
-    &.footer-nav {
-      text-align: right;
-      margin-bottom: 80px;
-      > a {
-        display: block;
-        color: $foreground;
-        font-family: "Open Sans", sans-serif;
-        text-decoration: none;
-
-        div {
-          margin: 0 20px;
-        }
-
-        div > span {
-          font-family: "Playfair Display SC", serif;
-          font-size: 2em;
-
-          & + h1 {
-            font-size: 1.5em;
-          }
-        }
-      }
-    }
+.footer-nav {
+  max-width: 960px;
+  margin: 0 auto 80px auto;
+  text-align: right;
+  a {
+    display: block;
+    color: $foreground;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+  }
+  div {
+    margin: 0 20px;
+  }
+  span {
+    font-family: "Playfair Display SC", serif;
+    font-size: 2em;
+  }
+  h1 {
+    font-size: 1.5em;
   }
 }
