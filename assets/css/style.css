@@ -6,7 +6,7 @@
 
 article {
   font-size: 20px; }
-  article p {
+  article p, article li {
     font-family: "Open Sans", sans-serif; }
   article h1 {
     font-size: 3em;
