@@ -15,10 +15,14 @@ article {
       margin-bottom: 2em;
     }
 }
+a {
+  color: $linkColor;
+  text-decoration: underline dotted;
+}
 .imageblock img {
   max-width: 100%;
 }
-ul {
+ul, ol {
   list-style-position: inside;
 }
 .footer-nav {
