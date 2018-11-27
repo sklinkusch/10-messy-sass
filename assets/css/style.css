@@ -68,6 +68,9 @@ article {
 .imageblock img {
   max-width: 100%; }
 
+ul {
+  list-style-position: inside; }
+
 .footer-nav {
   max-width: 960px;
   margin: 0 auto 80px auto;
