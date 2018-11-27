@@ -2,10 +2,7 @@
 article {
   font-size: 20px;
   p {
-    font-family: "Open Sans", sans-serif;
-  }
-  h1, h2, h3 {
-    font-family: "Playfair Display SC", serif;
+    font-family: $secondaryFont;
   }
   h1 {
     @include fons(3em,0.6em,900);
@@ -26,20 +23,24 @@ article {
     }
   }
 }
+h1, h2, h3 {
+  font-family: $primaryFont;
+}
 .intro {
   font-weight: 100;
   font-style: italic;
 }
 .footer-nav {
   a {
-    font-family: "Open Sans", sans-serif;
+    font-family: $secondaryFont;
     text-decoration: none;
   }
   span {
-    font-family: "Playfair Display SC", serif;
+    font-family: $primaryFont;
     font-size: 2em;
   }
   h1 {
+    font-family: $primaryFont;
     font-size: 1.5em;
   }
 }
