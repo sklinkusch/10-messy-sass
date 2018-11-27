@@ -8,6 +8,8 @@ article {
   font-size: 20px; }
   article p, article li {
     font-family: "Open Sans", sans-serif; }
+  article p {
+    text-align: justify; }
   article h1 {
     font-size: 3em;
     margin-bottom: 0.6em;
@@ -32,6 +34,14 @@ article {
 
 h1, h2, h3 {
   font-family: "Playfair Display SC", serif; }
+
+.quotation {
+  background-color: #bbb;
+  color: black; }
+
+blockquote {
+  font-family: monospace;
+  text-align: center; }
 
 .intro {
   font-weight: 100;

@@ -4,6 +4,9 @@ article {
   p, li {
     font-family: $secondaryFont;
   }
+  p {
+    text-align: justify;
+  }
   h1 {
     @include fons(3em,0.6em,900);
     @media #{$mobile} {
@@ -25,6 +28,14 @@ article {
 }
 h1, h2, h3 {
   font-family: $primaryFont;
+}
+.quotation {
+  background-color: $quote-bg;
+  color: $quote-fg;
+}
+blockquote {
+  font-family: monospace;
+  text-align: center;
 }
 .intro {
   font-weight: 100;
