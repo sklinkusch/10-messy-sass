@@ -32,29 +32,30 @@ article div {
 article p {
   font-family: "Open Sans", sans-serif; }
 
-body article { }
-  body article h1 {
-    font-size: 3em;
-    margin-bottom: 0.6em;
-    font-family: "Playfair Display SC", serif;
-    font-weight: 900; }
-    @media screen and (max-width: 567px) {
-      body article h1 {
-        font-size: 1.8em; } }
-  body article h2 {
-    font-size: 1.8em;
-    margin-bottom: 0.4em;
-    font-family: "Playfair Display SC", serif; }
-    @media screen and (max-width: 567px) {
-      body article h2 {
-        font-size: 1.4em; } }
-  body article h3 {
-    font-size: 1.4em;
-    margin-bottom: 0.2em;
-    font-family: "Playfair Display SC", serif; }
-    @media screen and (max-width: 567px) {
-      body article h3 {
-        font-size: 1.1em; } }
+h1, h2, h3 {
+  font-family: "Playfair Display SC", serif; }
+
+body article h1 {
+  font-size: 3em;
+  margin-bottom: 0.6em;
+  font-weight: 900; }
+  @media screen and (max-width: 567px) {
+    body article h1 {
+      font-size: 1.8em; } }
+
+body article h2 {
+  font-size: 1.8em;
+  margin-bottom: 0.4em; }
+  @media screen and (max-width: 567px) {
+    body article h2 {
+      font-size: 1.4em; } }
+
+body article h3 {
+  font-size: 1.4em;
+  margin-bottom: 0.2em; }
+  @media screen and (max-width: 567px) {
+    body article h3 {
+      font-size: 1.1em; } }
 
 body footer nav {
   max-width: 960px;

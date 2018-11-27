@@ -1,5 +1,6 @@
 @import './reset';
 @import './vars';
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC:900");
 
 body {
   background-color: darken($background, 10%);
@@ -31,12 +32,14 @@ article {
     font-family: "Open Sans", sans-serif;
   }
 }
+h1, h2, h3 {
+  font-family: "Playfair Display SC", serif;
+}
 body {
   article {
     h1 {
       font-size: 3em;
       margin-bottom: 0.6em;
-      font-family: "Playfair Display SC", serif;
       font-weight: 900;
 
       @media screen and (max-width: 567px) {
@@ -47,7 +50,6 @@ body {
     h2 {
       font-size: 1.8em;
       margin-bottom: 0.4em;
-      font-family: "Playfair Display SC", serif;
 
       @media screen and (max-width: 567px) {
         font-size: 1.4em;
@@ -57,14 +59,11 @@ body {
     h3 {
       font-size: 1.4em;
       margin-bottom: 0.2em;
-      font-family: "Playfair Display SC", serif;
 
       @media screen and (max-width: 567px) {
         font-size: 1.1em;
       }
     }
-
-    @import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC:900");
   }
 
   footer nav {
