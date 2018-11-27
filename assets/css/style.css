@@ -35,26 +35,28 @@ article p {
 h1, h2, h3 {
   font-family: "Playfair Display SC", serif; }
 
-body article h1 {
+h1 {
   font-size: 3em;
   margin-bottom: 0.6em;
   font-weight: 900; }
   @media screen and (max-width: 567px) {
-    body article h1 {
+    h1 {
       font-size: 1.8em; } }
 
-body article h2 {
+h2 {
   font-size: 1.8em;
-  margin-bottom: 0.4em; }
+  margin-bottom: 0.4em;
+  font-weight: 100; }
   @media screen and (max-width: 567px) {
-    body article h2 {
+    h2 {
       font-size: 1.4em; } }
 
-body article h3 {
+h3 {
   font-size: 1.4em;
-  margin-bottom: 0.2em; }
+  margin-bottom: 0.2em;
+  font-weight: 100; }
   @media screen and (max-width: 567px) {
-    body article h3 {
+    h3 {
       font-size: 1.1em; } }
 
 body footer nav {
