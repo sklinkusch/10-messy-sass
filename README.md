@@ -13,10 +13,11 @@ We need to fix that, the good name of Sass is on risk.
 
 1. Clean up the styles
    - clean up selectors remove unnecessary specificity
-   - use partials for vars
-   - typography
-   - layout
-   - sections (e.g. footer)
+   - use partials for:
+     - vars
+     - typography
+     - layout
+     - sections (e.g. footer)
 
 > When you are finished with task 1 [watch this](http://bit.ly/2Qqt8Tc)
 
