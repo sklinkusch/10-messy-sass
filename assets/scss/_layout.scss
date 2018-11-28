@@ -1,3 +1,6 @@
+@import './article';
+@import './footer';
+
 body {
   background-color: darken($background, 10%);
 }
@@ -11,28 +14,11 @@ article {
     @media screen and (max-width: 567px) {
       padding: 60px 12px;
     }
-    div {
-      margin-bottom: 2em;
-    }
-}
-a {
-  color: $linkColor;
-  text-decoration: underline dotted;
-}
-.imageblock img {
-  max-width: 100%;
-}
-ul, ol {
-  list-style-position: inside;
 }
 .footer-nav {
   max-width: 960px;
   margin: 0 auto 80px auto;
   text-align: right;
-  a {
-    display: block;
-    color: $foreground;
-  }
   div {
     margin: 0 20px 20px 20px;
   }

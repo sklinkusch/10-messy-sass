@@ -65,6 +65,23 @@ blockquote {
   font-family: "Playfair Display SC", serif;
   font-size: 1.5em; }
 
+a {
+  color: #000099;
+  text-decoration: underline dotted; }
+
+.imageblock img {
+  max-width: 100%; }
+
+ul, ol {
+  list-style-position: inside; }
+
+article div {
+  margin-bottom: 2em; }
+
+.footer-nav a {
+  display: block;
+  color: #ff0381; }
+
 body {
   background-color: #5bbce4; }
 
@@ -78,26 +95,11 @@ article {
   @media screen and (max-width: 567px) {
     article {
       padding: 60px 12px; } }
-  article div {
-    margin-bottom: 2em; }
-
-a {
-  color: #000099;
-  text-decoration: underline dotted; }
-
-.imageblock img {
-  max-width: 100%; }
-
-ul, ol {
-  list-style-position: inside; }
 
 .footer-nav {
   max-width: 960px;
   margin: 0 auto 80px auto;
   text-align: right; }
-  .footer-nav a {
-    display: block;
-    color: #ff0381; }
   .footer-nav div {
     margin: 0 20px 20px 20px; }
 

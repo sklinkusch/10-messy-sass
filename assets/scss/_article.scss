@@ -1,0 +1,13 @@
+a {
+  color: $linkColor;
+  text-decoration: underline dotted;
+}
+.imageblock img {
+  max-width: 100%;
+}
+ul, ol {
+  list-style-position: inside;
+}
+article div {
+    margin-bottom: 2em;
+}
