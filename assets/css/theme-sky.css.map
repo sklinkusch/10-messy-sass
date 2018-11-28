@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "theme-sky.css",
+	"sources": [
+		"../scss/theme-sky.scss"
+	],
+	"sourcesContent": [
+		"$background: lighten( skyblue, 20%);\n$foreground: darken( hotpink, 20%);\n$linkColor: darken(blue, 20%);\n$quote-bg: grey;\n$quote-fg: white;\n\n$brandPrimary: orange;"
+	],
+	"names": [],
+	"mappings": ""
+}
