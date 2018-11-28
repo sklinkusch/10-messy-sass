@@ -1,0 +1,28 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss",
+		"../scss/_reset.scss",
+		"../scss/_vars.scss",
+		"../scss/_mixins.scss",
+		"../scss/theme-blue.scss",
+		"../scss/_typography.scss",
+		"../scss/_layout.scss",
+		"../scss/_article.scss",
+		"../scss/_footer.scss"
+	],
+	"sourcesContent": [
+		"@import './reset';\n@import './vars';\n@import './mixins';\n@import './theme-blue.scss';\n@import './typography';\n@import './layout';",
+		"* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n}",
+		"$primaryFont: \"Playfair Display SC\", serif;\n$secondaryFont: \"Open Sans\", sans-serif;\n\n$mobile: \"screen and (max-width: 567px)\";",
+		"@mixin fons($size,$margin,$weight) {\n  font-size: $size;\n  margin-bottom: $margin;\n  font-weight: $weight;\n}",
+		"$background: blue;\n$foreground: antiquewhite;\n$linkColor: lime;\n$quote-bg: skyblue;\n$quote-fg: black;\n\n$brandPrimary: yellow;",
+		"@import url(\"https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC:900\");\narticle {\n  font-size: 20px;\n  h1 {\n    @include fons(3em,0.6em,900);\n    @media #{$mobile} {\n      font-size: 1.8em;\n    }\n  }\n}\nh1, h2, h3 {\n  font-family: $primaryFont;\n}\nh2 {\n  @include fons(1.8em,0.4em,100);\n  @media #{$mobile} {\n    font-size: 1.4em;\n  }\n}\nh3 {\n  @include fons(1.4em,0.2em,100);\n  @media #{$mobile} {\n    font-size: 1.1em;\n  }\n}\np, li {\n  font-family: $secondaryFont;\n}\np {\n  text-align: justify;\n}\n.quotation {\n  background-color: $quote-bg;\n  color: $quote-fg;\n}\nblockquote {\n  font-family: monospace;\n  text-align: center;\n}\n.intro {\n  font-weight: 100;\n  font-style: italic;\n}\n.bold {\n  font-weight: bold;\n}\n.italic {\n  font-style: italic;\n}\n.footer-nav {\n  a {\n    font-family: $secondaryFont;\n    text-decoration: none;\n  }\n  span {\n    font-family: $primaryFont;\n    font-size: 2em;\n  }\n  h1 {\n    font-family: $primaryFont;\n    font-size: 1.5em;\n  }\n}",
+		"@import './article';\n@import './footer';\n\nbody {\n  background-color: darken($background, 10%);\n}\narticle {\n  max-width: 960px;\n    margin: 80px auto;\n    background-color: $background;\n    color: $foreground;\n    padding: 60px 36px;\n    box-shadow: 0px 4px 40px 10px rgba(0, 0, 0, 0.2);\n    @media screen and (max-width: 567px) {\n      padding: 60px 12px;\n    }\n}\n.footer-nav {\n  max-width: 960px;\n  margin: 0 auto 80px auto;\n  text-align: right;\n  div {\n    margin: 0 20px 20px 20px;\n  }\n}",
+		"a {\n  color: $linkColor;\n  text-decoration: underline dotted;\n}\n.imageblock img {\n  max-width: 100%;\n}\nul, ol {\n  list-style-position: inside;\n}\narticle div {\n    margin-bottom: 2em;\n}",
+		".footer-nav a {\n  display: block;\n  color: $foreground;\n}"
+	],
+	"names": [],
+	"mappings": "AKAA,OAAO,CAAC,gFAAI;AJAZ,AAAA,CAAC,CAAC;EACA,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU,GACvB;;AIHD,AAAA,OAAO,CAAC;EACN,SAAS,EAAE,IAAI,GAOhB;EARD,AAEE,OAFK,CAEL,EAAE,CAAC;IFFH,SAAS,EEGO,GAAG;IFFnB,aAAa,EEEO,KAAK;IFDzB,WAAW,EECe,GAAG,GAI5B;IAHC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;MAJvC,AAEE,OAFK,CAEL,EAAE,CAAC;QAGC,SAAS,EAAE,KAAK,GAEnB;;AAEH,AAAA,EAAE,EAAE,EAAE,EAAE,EAAE,CAAC;EACT,WAAW,EHXC,qBAAqB,EAAE,KAAK,GGYzC;;AACD,AAAA,EAAE,CAAC;EFZD,SAAS,EEaK,KAAK;EFZnB,aAAa,EEYO,KAAK;EFXzB,WAAW,EEWe,GAAG,GAI9B;EAHC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;IAFrC,AAAA,EAAE,CAAC;MAGC,SAAS,EAAE,KAAK,GAEnB;;AACD,AAAA,EAAE,CAAC;EFlBD,SAAS,EEmBK,KAAK;EFlBnB,aAAa,EEkBO,KAAK;EFjBzB,WAAW,EEiBe,GAAG,GAI9B;EAHC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;IAFrC,AAAA,EAAE,CAAC;MAGC,SAAS,EAAE,KAAK,GAEnB;;AACD,AAAA,CAAC,EAAE,EAAE,CAAC;EACJ,WAAW,EHzBG,WAAW,EAAE,UAAU,GG0BtC;;AACD,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,OAAO,GACpB;;AACD,AAAA,UAAU,CAAC;EACT,gBAAgB,ED7BP,OAAO;EC8BhB,KAAK,ED7BI,KAAK,GC8Bf;;AACD,AAAA,UAAU,CAAC;EACT,WAAW,EAAE,SAAS;EACtB,UAAU,EAAE,MAAM,GACnB;;AACD,AAAA,MAAM,CAAC;EACL,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM,GACnB;;AACD,AAAA,KAAK,CAAC;EACJ,WAAW,EAAE,IAAI,GAClB;;AACD,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,MAAM,GACnB;;AACD,AACE,WADS,CACT,CAAC,CAAC;EACA,WAAW,EHlDC,WAAW,EAAE,UAAU;EGmDnC,eAAe,EAAE,IAAI,GACtB;;AAJH,AAKE,WALS,CAKT,IAAI,CAAC;EACH,WAAW,EHvDD,qBAAqB,EAAE,KAAK;EGwDtC,SAAS,EAAE,GAAG,GACf;;AARH,AASE,WATS,CAST,EAAE,CAAC;EACD,WAAW,EH3DD,qBAAqB,EAAE,KAAK;EG4DtC,SAAS,EAAE,KAAK,GACjB;;AE7DH,AAAA,CAAC,CAAC;EACA,KAAK,EHCK,IAAI;EGAd,eAAe,EAAE,gBAAgB,GAClC;;AACD,AAAA,WAAW,CAAC,GAAG,CAAC;EACd,SAAS,EAAE,IAAI,GAChB;;AACD,AAAA,EAAE,EAAE,EAAE,CAAC;EACL,mBAAmB,EAAE,MAAM,GAC5B;;AACD,AAAA,OAAO,CAAC,GAAG,CAAC;EACR,aAAa,EAAE,GAAG,GACrB;;ACZD,AAAA,WAAW,CAAC,CAAC,CAAC;EACZ,OAAO,EAAE,KAAK;EACd,KAAK,EJDM,YAAY,GIExB;;AFAD,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,OAAwB,GAC3C;;AACD,AAAA,OAAO,CAAC;EACN,SAAS,EAAE,KAAK;EACd,MAAM,EAAE,SAAS;EACjB,gBAAgB,EFTP,IAAI;EEUb,KAAK,EFTI,YAAY;EEUrB,OAAO,EAAE,SAAS;EAClB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAC,IAAI,CAAC,kBAAkB,GAInD;EAHG,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;IAPvC,AAAA,OAAO,CAAC;MAQF,OAAO,EAAE,SAAS,GAEvB;;AACD,AAAA,WAAW,CAAC;EACV,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,gBAAgB;EACxB,UAAU,EAAE,KAAK,GAIlB;EAPD,AAIE,WAJS,CAIT,GAAG,CAAC;IACF,MAAM,EAAE,gBAAgB,GACzB"
+}
