@@ -1,33 +1,33 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC:900");
 article {
   font-size: 20px;
-  p, li {
-    font-family: $secondaryFont;
-  }
-  p {
-    text-align: justify;
-  }
   h1 {
     @include fons(3em,0.6em,900);
     @media #{$mobile} {
       font-size: 1.8em;
     }
   }
-  h2 {
-    @include fons(1.8em,0.4em,100);
-    @media #{$mobile} {
-      font-size: 1.4em;
-    }
-  }
-  h3 {
-    @include fons(1.4em,0.2em,100);
-    @media #{$mobile} {
-      font-size: 1.1em;
-    }
-  }
 }
 h1, h2, h3 {
   font-family: $primaryFont;
+}
+h2 {
+  @include fons(1.8em,0.4em,100);
+  @media #{$mobile} {
+    font-size: 1.4em;
+  }
+}
+h3 {
+  @include fons(1.4em,0.2em,100);
+  @media #{$mobile} {
+    font-size: 1.1em;
+  }
+}
+p, li {
+  font-family: $secondaryFont;
+}
+p {
+  text-align: justify;
 }
 .quotation {
   background-color: $quote-bg;
